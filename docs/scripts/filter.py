@@ -41,5 +41,5 @@ def filter_id_linked_element_and_back (needs, results, **kwargs):
     if len(results) == 0:
         raise InvalidFilterInLinkedElement(
             "filter_id_linked_element_and_back was called but did not have a result. Arguments: <" + str(kwargs) + 
-            ">. Check if ID: " + str(search_id) + " is a correct need.")
+            ">. Check if ID: <" + str(search_id) + "> is a correct need.")
 
