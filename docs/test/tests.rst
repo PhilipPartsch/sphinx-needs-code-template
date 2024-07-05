@@ -17,7 +17,7 @@ Test results for <your product>
 .. test-file:: Test Results for <your product>
    :file: _static/_external_data/test_results.xml
    :id: TEST_ID
-   :verified_by: TCOVER_TESTS_MERGE_DICTS_TEST
+   :links: TCOVER_TESTS_MERGE_DICTS_TEST
    :auto_suites:
    :auto_cases:
 
