@@ -44,7 +44,7 @@ Architecture for <your product>
    **Architecture generated from datamodel**
 
    .. needflow:: Links
-      :filter-func: filter.filter_id_linked_element_and_back(M_MERGE_DICTS, implements)
+      :filter-func: filter.filter_id_linked_element_and_back(M_ID, implements)
       :link_types: implements
       :show_link_names:
       :align: left
