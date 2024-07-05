@@ -4,24 +4,15 @@ Test_Merge_Dicts:
 
 sphinx_needs_test_spec = ''
 """
-.. test_spec:: Test of merge_dicts
-   :id: TS_MERGE_DICTS
-   :status: verified
-   :verified_by: TEST_RES_merge_dicts
-   :tests: SWRQ_TOOL_merge_dicts,
-           SWRQ_MERGE_DICTS,
-           SWRQ_LIST_OF_DICTS,
-           VERIFY_SWRQ_LIST_OF_DICTS,
-           SWRQ_DETECT_MERGE_CONFLICTS,
-           VERIFY_SWRQ_DETECT_MERGE_CONFLICTS,
-           SWRQ_ALLOW_DOUBLE_DEFINITION,
-           VERIFY_SWRQ_ALLOW_DOUBLE_DEFINITION,
-           SWRQ_USE_FIRST_VALUE_FOR_KEY,
-           VERIFY_SWRQ_USE_FIRST_VALUE_FOR_KEY,
-           M_MERGE_DICTS,
-           IF_MERGE_DICTS
+.. test_spec:: Test of <your product>
+   :id: TS_ID
+   :status: new
+   :verified_by: TEST_ID
+   :tests: SWRQ_ID
+           M_ID,
+           IF_ID
 
-   This is a test specification for the module :need:`M_MERGE_DICTS`.
+   This is a test specification for <your product>.
 
    **Test execution**
 

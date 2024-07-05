@@ -16,7 +16,7 @@ Test results for <your product>
 
 .. test-file:: Test Results for <your product>
    :file: _static/_external_data/test_results.xml
-   :id: TEST_RES_merge_dicts
+   :id: TEST_ID
    :auto_suites:
    :auto_cases:
 

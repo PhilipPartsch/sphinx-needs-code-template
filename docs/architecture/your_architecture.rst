@@ -77,6 +77,3 @@ Architecture for <your product>
 
       <Your implementation evaluation documentation here>
 
-
-
-
