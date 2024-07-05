@@ -15,8 +15,7 @@ how to :ref:`installation` the project.
    requirements/index
    architecture/index
 
-   doc/api
-   doc/usage
+   user_doc/usage
 
    test/tests
    test/test_coverage
