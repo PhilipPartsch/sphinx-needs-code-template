@@ -34,7 +34,7 @@ Overview
 
 .. needbar:: Requirements & Status Overview
    :legend:
-   :colors: black, yellow, orange, green
+   :colors: black, red, red, orange, yellow, green
    :xlabels: FROM_DATA
    :ylabels: FROM_DATA
 
