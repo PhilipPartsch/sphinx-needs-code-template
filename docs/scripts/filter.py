@@ -1,4 +1,9 @@
 
+from sphinx.errors import SphinxError
+
+class InvalidFilterInLinkedElement(SphinxError):
+    pass
+
 def filter_id_linked_element_and_back (needs, results, **kwargs):
 
     verbose = False
@@ -6,7 +11,7 @@ def filter_id_linked_element_and_back (needs, results, **kwargs):
     if len(kwargs) > 0:
         search_id = kwargs["arg1"].strip()
     else:
-        raise("filter_id_linked_element_and_back was called without arguments (link types for filtering)!")
+        raise InvalidFilterInLinkedElement("filter_id_linked_element_and_back was called without arguments (link types for filtering)!")
 
     links = []
 
@@ -34,5 +39,5 @@ def filter_id_linked_element_and_back (needs, results, **kwargs):
             break
 
     if len(results) == 0:
-        raise("filter_id_linked_element_and_back was called but did not have a result. Arguments: " + str(kwargs))
+        raise InvalidFilterInLinkedElement("filter_id_linked_element_and_back was called but did not have a result. Arguments: <" + str(kwargs) + ">. Check for ID: " + str(search_id))
 
