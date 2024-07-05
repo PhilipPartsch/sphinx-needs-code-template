@@ -40,6 +40,8 @@ Overview
 
               ,        Stakeholder Requirement             ,           Software Requirement
          empty, type=='stake_req' and status==''           ,    type=='sw_req' and status==''
+           new, type=='stake_req' and status=='new'        ,    type=='sw_req' and status=='new'
+       changed, type=='stake_req' and status=='changed'    ,    type=='sw_req' and status=='changed'
       accepted, type=='stake_req' and status=='accepted'   ,    type=='sw_req' and status=='accepted'
    implemented, type=='stake_req' and status=='implemented',    type=='sw_req' and status=='implemented'
       verified, type=='stake_req' and status=='verified'   ,    type=='sw_req' and status=='verified'
