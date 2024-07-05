@@ -8,7 +8,7 @@ sphinx_needs_test_spec = ''
    :id: TS_ID
    :status: new
    :verified_by: TEST_ID
-   :tests: SWRQ_ID
+   :tests: SWRQ_ID,
            M_ID,
            IF_ID
 

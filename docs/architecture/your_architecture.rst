@@ -59,7 +59,7 @@ Architecture for <your product>
 .. if:: <your interface of your product>
    :id: IF_ID
    :satisfies: SWRQ_ID
-   :verified_by: TCOVER_ID
+   :verified_by: TCOVER_MERGE_DICTS
 
    **Architecture**
 
