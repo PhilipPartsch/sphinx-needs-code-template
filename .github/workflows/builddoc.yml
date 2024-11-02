@@ -46,7 +46,7 @@ jobs:
         sphinx-lint
     - name: Update vale packages
       run:
-        python vale sync
+        python -m vale sync
     - name: Lint the project with vale
       uses: errata-ai/vale-action@v2.1.1
       with:
