@@ -25,11 +25,11 @@ jobs:
     runs-on: ubuntu-latest
     container: jdkato/vale
     steps:
+        - run: whoami
+        - run: pwd
+        - run: ls -al
         - name: Update vale packages
           run: |
-            whoami
-            pwd
-            ls -al
             vale sync
   build:
     runs-on: ubuntu-latest
