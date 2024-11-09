@@ -21,6 +21,12 @@ env:
   FORCE_COLOR: "1"
 
 jobs:
+  container-job:
+        runs-on: ubuntu-latest
+        container: jdkato/vale
+        steps:
+            - name: Update vale packages
+              run: vale sync
   build:
     runs-on: ubuntu-latest
 
@@ -44,10 +50,6 @@ jobs:
     - name: Lint the project with sphinx-lint
       run: |
         sphinx-lint
-    - name: Update vale packages
-      uses: jdkato/vale
-      run:
-        vale sync
     - name: Lint the project with vale
       uses: errata-ai/vale-action@v2.1.1
       with:
