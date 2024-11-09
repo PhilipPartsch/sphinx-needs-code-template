@@ -45,8 +45,9 @@ jobs:
       run: |
         sphinx-lint
     - name: Update vale packages
+      uses: jdkato/vale
       run:
-        python -m vale sync
+        vale sync
     - name: Lint the project with vale
       uses: errata-ai/vale-action@v2.1.1
       with:
