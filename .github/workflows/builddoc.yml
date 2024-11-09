@@ -22,11 +22,15 @@ env:
 
 jobs:
   container-job:
-        runs-on: ubuntu-latest
-        container: jdkato/vale
-        steps:
-            - name: Update vale packages
-              run: vale sync
+    runs-on: ubuntu-latest
+    container: jdkato/vale
+    steps:
+        - name: Update vale packages
+          run: |
+            whoami
+            pwd
+            ls -al
+            vale sync
   build:
     runs-on: ubuntu-latest
 
@@ -38,7 +42,7 @@ jobs:
         python-version: "3"
         cache: 'pip' # caching pip dependencies
     - name: print versions for debugging
-      run: python --version ; pip --version ; whoami
+      run: python --version ; pip --version ; whoami ; pwd
     - name: Install graphviz & default-jdk
       run: sudo apt-get install graphviz default-jdk
     - name: Install dependencies
