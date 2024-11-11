@@ -32,6 +32,11 @@ jobs:
       - name: Update vale packages
         run: |
           vale sync
+      - name: check styles folder for content
+        run: |
+          cd ./styles
+          ls -al
+
   build:
     runs-on: ubuntu-latest
     needs: vale-update
