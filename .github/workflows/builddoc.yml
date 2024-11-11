@@ -21,19 +21,20 @@ env:
   FORCE_COLOR: "1"
 
 jobs:
-  container-job:
+  vale-update:
     runs-on: ubuntu-latest
     container: jdkato/vale
     steps:
-        - run: whoami
-        - run: pwd
-        - run: ls -al
-        - name: Update vale packages
-          run: |
-            vale sync
+      - uses: actions/checkout@v4
+      - run: whoami
+      - run: pwd
+      - run: ls -al
+      - name: Update vale packages
+        run: |
+          vale sync
   build:
     runs-on: ubuntu-latest
-
+    needs: vale-update
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python
