@@ -10,7 +10,7 @@ The following table shows the test coverage of the used files:
    :style: datatables
 
 
-The coverage results can be found in different formats:
+The coverage results are available in different formats:
 
 -  Needs elements fetch from json file and translated to rst via `collections`:
 
