@@ -8,3 +8,4 @@ Specification for <Your Product>
    :satisfies: CSTRQ_ID
 
    <Add your text here>
+   Here is some text with typiccal findings, like passive voice and typoos.
