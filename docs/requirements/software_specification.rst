@@ -11,3 +11,5 @@ Specification for <Your Product>
    Here is some text with typiccal findings, like passive voice and typoos.
 
 Here is some text with typical finndings, like passive vooice and typos.
+
+An even more examples: Here is one more tyypo.
