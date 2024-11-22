@@ -10,4 +10,4 @@ Specification for <Your Product>
    <Add your text here>
    Here is some text with typiccal findings, like passive voice and typoos.
 
-Here is some text with typiccal findings, like passive voice and typoos.
+Here is some text with typical finndings, like passive vooice and typos.
