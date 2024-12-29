@@ -1,4 +1,4 @@
-.. include:: ../README.rst
+.. include:: ../readme.rst
 
 
 Check out the :ref:`usage` section for further information, including
