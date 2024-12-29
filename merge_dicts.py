@@ -2,14 +2,14 @@
 merge_dicts - Given dictionaries are merge into a new dict.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 def merge_dicts(*dict_args: [{}]) -> [{}, bool]:
     """
     merge_dicts: Given dictionaries are merge into a new dict.
 
-    :param kind: Optional "dict_args" as list of dict.
-    :type kind: dict or list(dict) or None
+    :param dict_args: Optional "dict_args" as list of dict.
+    :type dict_args: dict or list(dict) or None
     :raise AttributeError: If the dict_args is invalid.
     :return: merged dict and list of merge conflicts.
     :rtype: list(dict, list)

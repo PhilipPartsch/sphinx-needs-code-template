@@ -187,15 +187,15 @@ needs_extra_links = [
       "option": "tests",
       "incoming": "tested by",
       "outgoing": "tests",
-      "style_start": "-right",
+      "style_start": "-up",
       "style_end": "->"
    },
    {
       "option": "verified_by",
       "incoming": "verifies",
       "outgoing": "verified by",
-      "style_start": "-right",
-      "style_end": "->"
+      "style_start": "<-up",
+      "style_end": "-"
    },
    # link from a requirement to an archiecture element
    {

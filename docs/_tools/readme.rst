@@ -10,3 +10,4 @@ you have to set the execution bit for UNIX OS based systems.
 | `git update-index --chmod=+x path/to/tool`
 
 and normal git commit handling.
+
